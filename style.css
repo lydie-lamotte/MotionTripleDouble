@@ -74,3 +74,29 @@ h1 {
     padding-right: 0;
     padding-bottom: 50px;
 }
+
+/* Footer */
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.icon{
+    font-size:2em;
+    padding: 15px;
+    color:rgb(85, 83, 83);
+    cursor: pointer;
+}
+.icon:hover{
+    transform: scale(1.2);
+}
+.concept{
+    background-color: black;
+    height: 60px;
+}
+.name{
+    color:beige;
+    text-align: center;
+    padding-top: 15px;    
+}
